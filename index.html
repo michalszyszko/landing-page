@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Top Menu</title>
+  <title>JobPilotAI</title>
   <link rel="stylesheet" href="./css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="wrapper">
@@ -23,8 +24,8 @@
         </nav>
       </div>
       <div class="auth-buttons">
-        <button class="login-btn">Zaloguj się</button>
-        <button class="signup-btn">Zarejestruj się</button>
+        <button class="login-btn primary-button">Zaloguj się</button>
+        <button class="signup-btn primary-button">Zarejestruj się</button>
       </div>
     </header>
 
@@ -33,13 +34,13 @@
       <div class="hero-content">
         <h1>JobPilotAI</h1>
         <p>Nowoczesne wsparcie, które otwiera drzwi kariery</p>
-        <a href="#join" class="join-button">Wypróbuj za darmo</a>
+        <a href="#join" class="join-button primary-button">Wypróbuj za darmo</a>
       </div>
     </section>
 
     <!-- New Section -->
     <section class="simple-section">
-      <div class="section-content">
+      <div class="simple-section-content">
         <h2>Stres przed rozmową kwalifikacyjną?</h2>
         <p>Zyskaj przewagę nad konkurencją dzięki JobPilotAi. Nasz ekosystem narzędzi wspiera Cię na każdym etapie poszukiwania pracy. Dzięki inteligentnym podpowiedziom w czasie rzeczywistym, płynnie dostosowujesz się do każdej sytuacji i żadne pytanie nie jest Cię w stanie zaskoczyć. Rekrutacja staje się łatwiejsza, mniej stresująca, a twoja skuteczność osiąga nowe rekordy. Być może jesteś tylko jedną, właściwą rozmowę od spełnienia swoich zawodowych marzeń. Osiągnij sukces z nami.</p>
       </div>
@@ -83,8 +84,8 @@
 
     <!-- Pricing Section -->
     <section class="pricing-section">
-      <div class="pricing-toggle">
-        <button class="toggle-price-btn">Zmień na roczną cenę</button>
+      <div class="pricing-toggle-section">
+        <input class="pricing-toggle-input" type="checkbox" id="switch" /><label class="pricing-toggle-label" for="switch">Toggle</label>
       </div>
       <div class="pricing-container">
         <div class="pricing-option">
@@ -92,38 +93,38 @@
           <p class="price">0 PLN</p>
           <p class="price-duration">Za miesiąc</p>
           <ul class="pricing-features">
-            <li>Analiza CV</li>
-            <li>Trzy rozmowy treningowe</li>
-            <li>Ograniczony dostęp do bazy wiedzy</li>
+            <li><span>Analiza CV</span></li>
+            <li><span>Trzy rozmowy treningowe</span></li>
+            <li><span>Ograniczony dostęp do bazy wiedzy</span></li>
           </ul>
-          <a href="#" class="purchase-btn">Dołącz</a>
+          <button class="purchase-btn primary-button">Dołącz</button>
         </div>
         <div class="pricing-option">
           <h3>Pro</h3>
           <p class="price">49 PLN</p>
           <p class="price-duration">Za miesiąc</p>
           <ul class="pricing-features">
-            <li>Analiza CV</li>
-            <li>Rozmowy treningowe bez limitów</li>
-            <li>Rozszerzony dostęp do bazy wiedzy i materiałów szkoleniowych</li>
-            <li>Asystent AI - wskazówki w czasie rzeczywistym</li>
-            <li>Moduł treningowy - ocena i feedback</li>
+            <li><span>Analiza CV</span></li>
+            <li><span>Rozmowy treningowe bez limitów</span></li>
+            <li><span>Rozszerzony dostęp do bazy wiedzy i materiałów szkoleniowych</span></li>
+            <li><span>Asystent AI - wskazówki w czasie rzeczywistym</span></li>
+            <li><span>Moduł treningowy - ocena i feedback</span></li>
           </ul>
-          <a href="#" class="purchase-btn">Kup teraz</a>
+          <button class="purchase-btn primary-button">Kup teraz</button>
         </div>
         <div class="pricing-option">
           <h3>Ekspert</h3>
           <p class="price">99 PLN</p>
           <p class="price-duration">Za miesiąc</p>
           <ul class="pricing-features">
-            <li>Wszystkie elementy planu Pro</li>
-            <li>Moduł planowania kariery</li>
-            <li>Negocjacja podwyżki - rozszerzenie asystenta AI</li>
-            <li>Oferty pracy dopasowane do Twojego CV</li>
-            <li>Pełny dostęp do bazy wiedzy</li>
-            <li>Indywidualna konsultacja z naszymi ekspertami HR</li>
+            <li><span>Wszystkie elementy planu Pro</span></li>
+            <li><span>Moduł planowania kariery</span></li>
+            <li><span>Negocjacja podwyżki - rozszerzenie asystenta AI</span></li>
+            <li><span>Oferty pracy dopasowane do Twojego CV</span></li>
+            <li><span>Pełny dostęp do bazy wiedzy</span></li>
+            <li><span>Indywidualna konsultacja z naszymi ekspertami HR</span></li>
           </ul>
-          <a href="#" class="purchase-btn">Kup teraz</a>
+          <button class="purchase-btn primary-button">Kup teraz</button>
         </div>
       </div>
     </section>
@@ -135,7 +136,7 @@
         <p>I rozwijaj swój potencjał w towarzystwie ludzi o podobnej wizji. Materiały szkoleniowe, nowości z rynku pracy i wszystko czego potrzebujesz, żeby wejść na koklejny poziom kariery</p>
         <div class="newsletter-signup">
           <input type="email" placeholder="Wpisz swój e-mail" class="email-input" />
-          <button class="newsletter-btn">Zapisz się</button>
+          <button class="newsletter-btn primary-button">Zapisz się</button>
         </div>
       </div>
     </section>
