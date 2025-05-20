@@ -171,6 +171,93 @@ body {
   margin-bottom: 2rem;
 }
 
+/* Selling point section */
+
+/* body {
+  --h: 212deg;
+  --l: 43%;
+  --brandColor: hsl(var(--h), 71%, var(--l));
+}
+
+.selling-point-content {
+  background-color: #f9f9f9;
+}
+
+.selling-points-list {
+  list-style: none;
+  counter-reset: list;
+  padding: 0 1rem;
+}
+
+.selling-points-item {
+  --stop: calc(100% / var(--length) * 1.75*var(--i));
+  --l: 62%;
+  --l2: 88%;
+  --h: calc((var(--i) - 1) * (180 / var(--length)));
+  --c1: hsl(var(--h), 71%, var(--l));
+  --c2: hsl(var(--h), 71%, var(--l2));
+  
+  position: relative;
+  counter-increment: list;
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 1rem;
+  box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  background-color: white;
+}
+
+.selling-points-item::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background: linear-gradient(to right, var(--c1) var(--stop), var(--c2) var(--stop)); */
+  /* background: linear-gradient(to right, #1570BF var(--stop), #6482ED var(--stop));
+}
+
+.selling-points-item-1 h3::before   {
+  background-color: #1570BF;
+}
+
+.selling-points-item-2 h3::before {
+  background-color: #7264ED;
+}
+
+.selling-points-item-3 h3::before {
+  background-color: #6482ED;
+}
+
+.selling-points-item h3 {
+  display: flex;
+  align-items: baseline;
+  margin: 0 0 1rem;
+  color: #444;
+}
+
+.selling-points-item h3::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  margin-right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  content: counter(list);
+  padding: 1rem;
+  border-radius: 50%;
+  /* background-color: var(--c1); */
+  /* color: white;
+}
+
+.selling-points-item p {
+  color: #444;
+}  */ 
+
 /* Info Section */
 .info-section {
   padding: 4rem 2rem;
@@ -312,15 +399,9 @@ body {
   color: #444;
   flex-grow: 1;
   text-align: left;
-}
-
-
-
-
-
-.pricing-features {
   position: relative;
 }
+
 .pricing-features li {
   position: relative;
   left: 0;
@@ -344,7 +425,7 @@ body {
   transition: 0.5s;
 }
 .pricing-features li:hover span {
-  color: #111;
+  color: #ffffff;
 }
 .pricing-features li:before {
   content: "";
@@ -359,13 +440,6 @@ body {
 .pricing-features li:hover:before {
   transform: scaleX(1);
 }
-
-
-
-
-/* .pricing-features li {
-  margin-bottom: 0.5rem;
-} */
 
 .purchase-btn {
   padding: 0.75rem 2rem;
